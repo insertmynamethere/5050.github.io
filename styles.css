@@ -23,7 +23,7 @@ html, #the_whole {
     display: -webkit-flex;
     display: flex;
     align-content: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: column;
 }
 
