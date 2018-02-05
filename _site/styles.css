@@ -30,8 +30,9 @@ html, #the_whole {
 
 #go_btn, #next_btn {
 	background-color: #ccc;
-	height: 100px;
-	width: 200px;
+	padding: 20px;
+	height: 75px;
+	width: 175px;
 	z-index: 2;
 }
 
