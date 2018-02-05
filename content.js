@@ -5,6 +5,11 @@ $(document).ready(function(){
 	$("#next_btn").click(function() {
 		nextPost();
 	});
+
+	$("#go_btn").click(function() {
+		window.open(data.url);
+		nextPost();
+	});
 });
 
 var nextPost = function() {
@@ -99,9 +104,11 @@ function swipedetect(el, callback){
 
 //USAGE:
 
-var el = document.getElementById('link_container');
+var el = document.getElementById('next_btn');
 swipedetect(el, function(swipedir){
     // swipedir contains either "none", "left", "right", "top", or "down"
     console.log(swipedir);
-    nextPost();
+    if (swipedir == "none") {
+    	nextPost();
+    }
 });
