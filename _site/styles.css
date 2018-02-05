@@ -1,0 +1,30 @@
+#the_link {
+	width: 75%;
+	display: inline-block;
+	border: 2px solid black;
+}
+
+#link_container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#next_btn {
+	margin-top: 15px;
+	width: 100px;
+}
+
+#btn_container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
