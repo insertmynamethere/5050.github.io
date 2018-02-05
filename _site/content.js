@@ -99,8 +99,9 @@ function swipedetect(el, callback){
 
 //USAGE:
 
-var el = document.getElementById('swipezone');
+var el = document.getElementById('link_container');
 swipedetect(el, function(swipedir){
     // swipedir contains either "none", "left", "right", "top", or "down"
+    console.log(swipedir);
     nextPost();
 });
